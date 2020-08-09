@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "proxy" : "https://localhost:5000"
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
