@@ -32,16 +32,24 @@ There were a number of steps that we went through when determining our end conce
   * ***Virtual Guide Dog - An app for the visually disabled*** - A virtual guide dog which helps you teach and navigate topics in a special way that addresses their needs.
   * ***Internship Opportunities for disabled tech students*** - An app that connects people studying in the tech sector to have access to internship opportunities.
 
-
 We ended up choosing poor access as this was one which had a higher degree of difficulty and it's potential to be used in various types of scenarios with the aim of providing education to lots of niche audiences who are unable to access education at the moment. We envision that an application like this would be a fully accredited course which could then be heavily supported by government programs giving disability students better accessibility and funds for using a program such as this. The idea behind this would be also to extend this past just disability students and extending it to students of all types who either have non-physical disabilities or students who are looking for alternative learning experiences. The user stories that we developed for this idea were boiled down to very basic components we knew we would need to provide as an MVP product. The ability to build out functionality which would fall outside the MVP product are endless and opens up the ability for users to be able to access the wider tech community through one simple medium.
 
 
 # HOW WAS IT BUILT?:
 
+### Technologies used
+* NodeJS
+* MongoDB
+* ExpressJS
+* React
 
 
 
-There were a few different factors that we needed to take into account when scoping out this idea, especially the fact that none of us were well familiar with the capability of building a fully fledged Virtual Class Management Portal. The language is fairly intuitive but one of the things we noticed pretty quickly is that there are very limited tutorials and documentation to provide guidance. As we were using a fairly basic structure for our application we were able to allocate some resources to purely developing the VR scenarios which gave them time to understand and play around with the framework to come up with an MVP Solution. Using real life imagery and resources from various resources, we were able to create a two step process for the users, the first being that they could land on a site and choose the topic/class that they were looking to join and the second being the actual VR classroom. The VR classroom incorporates a virtual teacher (Jamie), a blackboard which can use audio/video such as a screen record showing step throughs of their code courses and the ability to have a large scale amount of students accessing those resources from anywhere.
+There were a few different factors that we needed to take into account when scoping out this idea, especially the fact that none of us were well familiar with the capability of building a fully fledged Virtual Class Management Portal. The language is fairly intuitive but one of the things we noticed pretty quickly is that there are very limited tutorials and documentation to provide guidance. As we were using a fairly basic structure for our application we were able to allocate some resources to purely developing the  scenarios which gave them time to understand and play around with the framework to come up with an MVP Solution. Using real life imagery and resources from various resources, we were able to create a two step process for the users, the first being that they could land on a site and choose the topic/class that they were looking to join and the second being the actual VR classroom. The virtual classroom incorporates various tools such as:
+ 
+ * Internship Portal : To help the students get acquainted with various opportunities providing them    real world scenarios to implement and upgrade their skills.
+ * Course Portal : Involves the courses which the users have enrolled in from various platforms such    as Coursera,Udemy,CodingBlocks,etc.
+ * Refreshments : Keeping the users in touch with the current news happening in various tags can        serve as a refreshment for the stressful activities done by the users.
 
 # THE FUTURE OF VCR
 
@@ -51,3 +59,18 @@ The development of this concept comes with the ability for significant growth as
 - Complete development of the individual experience including any additional functionality our research would show they require.
 - Providing special development areas  in the form of skill development courses as well as internships where they can interact and share experiences like community areas and study rooms.
 - Ability to put up and share code snippets/resources directly in the virtual space, we would like to make this as visually compelling as possible.
+
+# Team AlphaOne Members:
+
+1) Siddharth Rai(team lead,backend and cloud solutions specialist)
+2) Roshan Jha(frontend developer)
+
+# Installation Instructions:
+
+1)You can obtain the repository from Github.
+2)Navigate to the client folder . Open the Command Prompt. Type the command "npm install".This will install all the packages required for running the frontend.Type the command "npm start" which will start the frontend and you will get a message showing that the frontend server has started.
+3)Go back to the main folder.Navigate to the server folder.Type the command "npm install".This will install all the packages required for running the backend.Type the command "node app.js" which will start the backend and you will get a message showing that the backend server has started.
+
+# Project Pictures:
+
+Screenshots folder contains all the screenshots related to the project.
